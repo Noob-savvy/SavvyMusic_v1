@@ -30,8 +30,8 @@ import numpy as np
 from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFont
 from youtubesearchpython.__future__ import VideosSearch
 
-from config import FAILED
-from SavvyMusic import BOT_ID, LOGGER, app
+from config import FAILED, OWNER_ID
+from SavvyMusic import LOGGER, app
 
 
 def changeImageSize(maxWidth, maxHeight, image):
