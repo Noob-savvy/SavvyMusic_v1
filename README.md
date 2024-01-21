@@ -9,7 +9,7 @@ Savvy Music Bot is a powerful Telegram bot for managing and streaming music in y
 - User-friendly commands.
 - More features...
 ## Deploying on koyeb
-[![Deploy to Koyeb](https://deploy.koyeb.com/deploy.svg)](https://deploy.koyeb.com/deploy?repository=https://github.com/Noob-savvy/SavvyMusic_v1)
+[![Deploy to Koyeb](https://www.koyeb.com/deploy.svg)](https://www.koyeb.com/deploy?repository=https://github.com/Noob-savvy/SavvyMusic_v1)
 
 ## Deploying on Heroku
 
