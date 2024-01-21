@@ -18,7 +18,7 @@ from SavvyMusic.utils.database import (
     remove_active_video_chat,
 )
 from SavvyMusic.utils.decorators.language import language
-from SavvyMusic.utils.pastebin import AnonyBin
+from SavvyMusic.utils.pastebin import SavvyBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
