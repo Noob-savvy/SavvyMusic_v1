@@ -238,8 +238,8 @@ async def gen_qthumb(videoid, user_id):
             )
         except:
             wxy = await app.download_media(
-                (await app.get_users(BOT_ID)).photo.big_file_id,
-                file_name=f"{BOT_ID}.jpg",
+                (await app.get_users(OWNER_ID)).photo.big_file_id,
+                file_name=f"{OWNER_ID}.jpg",
             )
 
         xy = Image.open(wxy)
