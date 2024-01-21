@@ -12,6 +12,9 @@ dbb()
 heroku()
 
 app = Savvy()
+getme = await app.get_me()
+    BOT_ID = getme.id
+
 userbot = Userbot()
 
 
