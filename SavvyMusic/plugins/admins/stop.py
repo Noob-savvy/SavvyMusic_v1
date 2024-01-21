@@ -3,7 +3,7 @@ from pyrogram.types import Message
 
 from SavvyMusic import app
 from SavvyMusic.core.call import Savvy
-from SavvyMusicutils.database import set_loop
+from SavvyMusic.utils.database import set_loop
 from SavvyMusic.utils.decorators import AdminRightsCheck
 from SavvyMusic.utils.inline import close_markup
 from config import BANNED_USERS
