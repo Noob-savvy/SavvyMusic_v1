@@ -3,7 +3,7 @@ from pyrogram.types import Message
 
 from SavvyMusic import app
 from SavvyMusic.misc import SUDOERS
-from SavvyMusicutils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from SavvyMusic.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
 from SavvyMusic.utils.decorators.language import language
 from config import BANNED_USERS
 
