@@ -1,0 +1,14 @@
+version: '1.0'
+
+services:
+  - name: savvy-music-bot
+    image: python:3.10
+    replicas: 1
+    command: ["bash", "-c", "pip install -r requirements.txt && python __main__.py"]
+    env:
+      - name: TELEGRAM_API_KEY
+        value: "your_telegram_api_key_here"
+      - name: OTHER_ENV_VARIABLE
+        value: "other_value_here"
+    ports:
+      - 8080:8080
