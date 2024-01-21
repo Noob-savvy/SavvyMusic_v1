@@ -16,10 +16,10 @@ services:
        value: ""
       - name: OWNER_ID
       value: ""
-      - name: SESSION
+     - name: STRING_SESSION
       value: ""
-      -name: 
-      value:
+      -name: LOGGER
+      value: ""
       
     ports:
       - 8080:8080
