@@ -20,7 +20,7 @@ from SavvyMusic.utils.database import (
 from SavvyMusic.utils.decorators.language import languageCB
 from SavvyMusic.utils.formatters import seconds_to_min
 from SavvyMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from SavvyMusicutils.stream.autoclear import auto_clean
+from SavvyMusic.utils.stream.autoclear import auto_clean
 from SavvyMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
