@@ -1,16 +1,42 @@
-### 🥀 𝐁𝐞𝐬𝐭 𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝 𝐒𝐮𝐩𝐞𝐫𝐟𝐚𝐬𝐭 𝐚𝐧𝐝 𝐒𝐦𝐚𝐫𝐭 𝐕𝐂 𝐌𝐮𝐬𝐢𝐜 𝐏𝐥𝐚𝐲𝐞𝐫 𝐁𝐨𝐭 𝐒𝐨𝐮𝐫𝐜𝐞 𝐅𝐨𝐫 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐆𝐫𝐨𝐮𝐩𝐬 𝐚𝐧𝐝 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✨...
+# Savvy Music Bot
 
-<p align="center"><a href="https://t.me/adityahalder"><img src=http://telegra.ph/file/36bfb1567e5ebc79c5ae3.jpg></a></p>
+Savvy Music Bot is a powerful Telegram bot for managing and streaming music in your Telegram groups and channels.
 
+## Features
 
-### 𝐃𝐞𝐩𝐥𝐨𝐲 𝐎𝐧 𝐇𝐞𝐫𝐨𝐤𝐮
+- Stream music from various sources.
+- Manage music playback in groups.
+- User-friendly commands.
+- More features...
 
-[![Deploy To Heroku](https://graph.org/file/826b0a2fc82db8328a113.png)](https://dashboard.heroku.com/new-app?template=https://github.com/Noob-savvy/SavvyMusic_v1)
+## Deploying on Heroku
 
+You can easily deploy Savvy Music on Heroku using the following steps:
 
+1. Click on the "Deploy to Heroku" button below.
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/Noob-savvy/SavvyMusic_v1)
 
+2. Fill in the required environment variables during the deployment process.
+3. Click "Deploy" and wait for the deployment to complete.
+4. Once deployed, open your app on Heroku and go to the "Resources" tab.
+5. Enable the worker by turning the switch on.
+6. Your Savvy Music Bot is now up and running on Heroku!
 
-### 𝐎𝐰𝐧𝐞𝐫 (𝐑𝐞𝐛𝐮𝐢𝐥𝐝 𝐖𝐢𝐭𝐡 𝐍𝐞𝐰 𝐃𝐞𝐬𝐢𝐠𝐧) 𝐎𝐟 𝐓𝐡𝐢𝐬 𝐑𝐞𝐩𝐨𝐬𝐭𝐢𝐨𝐫𝐲
-[![𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚]](https://t.me/Ranavanshi_Divy)
+# Clone the repository
+git clone https://github.com/Noob-savvy/SavvyMusic_v1.git
 
+# Change into the project directory
+cd SavvyMusic
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up your configuration by copying the example cp config.py.example config.py
+
+# Edit config.py with your own values using a text editor
+# For example, using nano:
+nano config.py
+
+# Run the bot
+python -m SavvyMusic
