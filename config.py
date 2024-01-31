@@ -30,6 +30,8 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","SAVVY MUSIC")
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/Noob-savvy/SavvyMusic_v1",
