@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 160))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -79,18 +79,18 @@ autoclean = []
 confirmer = {}
 
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/f06dc9ce9ed719db49312.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/e200de9956737a37e0769.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/ec84cf28e7adbd764aa4f.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1a8f7b7571ca906bdbb67.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/91d084b71c40c7ce1cdae.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/df577cbb38fc989cfe96d.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/21ae2d1092929558e6d6f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/97275de545d2a7df61754.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/30db9cdde35c8d22cd892.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/917c6f63de47c3e5607cd.jpg"
 
 #FAILED = "https://graph.org/file/44eb87e38b0c1e792d3c5.jpg"
 
