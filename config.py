@@ -31,7 +31,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 #Auto Gcast/Broadcast Handler (True = broadcast on , False = broadcast off During Hosting, Dont Do anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST")
+AUTO_GCAST = getenv("AUTO_GCAST")
 
 #Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
 AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
