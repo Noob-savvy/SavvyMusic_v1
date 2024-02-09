@@ -3,11 +3,11 @@ import datetime
 from SavvyMusic import app
 from pyrogram import Client
 from SavvyMusic.utils.database import get_served_chats
-from config import START_IMG_URL, AUTO_GCAST_MSG, AUTO_GCAST
+from config import AUTO_GCAST_MSG, AUTO_GCAST
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 AUTO_GCASTS = "{AUTO_GCAST}" if AUTO_GCAST else False
-
+START_IMG_URL = "https://graph.org/file/befade61a691c4b3010fd.jpg"
 
 MESSAGE = f"""**๏ ᴛʜɪs ɪs ᴀᴅᴠᴀɴᴄᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴡɪᴛʜ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘs + ᴄʜᴀɴɴᴇʟs ᴠᴄ. 💌
 
