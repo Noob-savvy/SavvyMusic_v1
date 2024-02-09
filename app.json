@@ -52,6 +52,16 @@
         "value": "",
         "required": false
       },
+      "AUTO_GCAST": {
+        "description": "(Leave Blank This Field & skip To Disbale Auto Gcast/Broadcast.)",
+        "value": "True",
+        "required": false
+      },
+      "AUTO_GCAST_MSG": {
+        "description": "",
+        "value": "",
+        "required": false
+      },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
