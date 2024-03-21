@@ -1,4 +1,4 @@
-from SavvyMusic.core.bot import Savvy
+from SavvyMusic.core.bot import savvy
 from SavvyMusic.core.dir import dirr
 from SavvyMusic.core.git import git
 from SavvyMusic.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Savvy()
+app = savvy()
 userbot = Userbot()
 
 
