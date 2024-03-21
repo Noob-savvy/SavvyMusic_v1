@@ -8,7 +8,7 @@ from SavvyMusic.utils import help_pannel
 from SavvyMusic.utils.database import get_lang
 from SavvyMusic.utils.decorators.language import LanguageStart, languageCB
 from SavvyMusic.utils.inline.help import help_back_markup, private_help_panel
-from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
+from config import BANNED_USERS, SUPPORT_CHAT
 from strings import get_string, helpers
 
 
@@ -38,8 +38,7 @@ async def helper_private(
         language = await get_lang(update.chat.id)
         _ = get_string(language)
         keyboard = help_pannel(_)
-        await update.reply_photo(
-            photo=START_IMG_URL,
+        await update.reply_text(
             caption=_["help_1"].format(SUPPORT_CHAT),
             reply_markup=keyboard,
         )
